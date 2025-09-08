@@ -1,0 +1,82 @@
+.gemini-seo-status {
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.gemini-seo-status.active {
+    background-color: #46b450;
+    color: white;
+}
+
+.gemini-seo-status.inactive {
+    background-color: #bbb;
+    color: white;
+}
+
+#gemini-seo-create-redirect-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gemini-seo-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 600px;
+    max-width: 90%;
+}
+
+#test-result {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+#test-result.success {
+    border-color: #46b450;
+    background-color: #f7fff7;
+}
+
+#test-result.error {
+    border-color: #dc3232;
+    background-color: #fff7f7;
+}
+
+.gemini-redirects-regex-feedback {
+    margin-top: 4px;
+    font-size: 13px;
+    min-height: 18px;
+    transition: color 0.2s;
+}
+.gemini-redirects-regex-feedback.error {
+    color: #e74c3c;
+    font-weight: bold;
+}
+.gemini-redirects-regex-feedback.success {
+    color: #217a00;
+    font-weight: bold;
+}
+.gemini-field-error {
+    border-color: #e74c3c !important;
+    background: #fff0f0;
+    transition: border-color 0.2s, background 0.2s;
+}
+.gemini-redirects-loop-feedback {
+    margin-top: 4px;
+    font-size: 13px;
+    min-height: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+    transition: color 0.2s;
+}
