@@ -1,0 +1,47 @@
+/* Admin UI Styles */
+
+.gemini-admin-tabs {
+    display: flex;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+}
+.gemini-admin-tabs a {
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+    background: #f9f9f9;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    transition: background 0.2s;
+}
+.gemini-admin-tabs a.active {
+    background: #fff;
+    color: #0073aa;
+    font-weight: bold;
+}
+.gemini-admin-tab-content {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+    border-radius: 0 5px 5px 5px;
+}
+.gemini-admin-form input[type="text"],
+.gemini-admin-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.gemini-field-error {
+    border-color: #e74c3c !important;
+    background: #fff0f0;
+}
+.gemini-media-preview {
+    max-width: 120px;
+    max-height: 120px;
+    display: block;
+    margin-bottom: 10px;
+}
