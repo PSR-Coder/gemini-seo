@@ -1,1 +1,42 @@
-
+.gemini-breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em 0;
+    font-size: 15px;
+}
+.gemini-breadcrumbs li {
+    margin-right: 8px;
+    color: #888;
+}
+.gemini-breadcrumbs li:after {
+    content: ">";
+    margin-left: 8px;
+    color: #ccc;
+}
+.gemini-breadcrumbs li:last-child:after {
+    content: "";
+}
+.gemini-breadcrumb-current {
+    color: #222;
+    font-weight: bold;
+}
+.gemini-faq-question {
+    cursor: pointer;
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    transition: background 0.2s;
+}
+.gemini-faq-question.open {
+    background: #e9f5ff;
+}
+.gemini-faq-answer {
+    display: none;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
